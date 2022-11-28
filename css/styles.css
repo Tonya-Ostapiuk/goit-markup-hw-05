@@ -398,6 +398,7 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em; 
     text-align: center;
+    margin-bottom: 30px;
 }
 .team-item {  
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -406,7 +407,6 @@ img {
     
 }
 .social-box {
-    padding-top: 30px;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -485,6 +485,7 @@ img {
 }
 .address {
     font-style: normal;
+    margin-top: 20px;
 }
 .contact-footer-address {
     color: var(--white);
@@ -633,7 +634,8 @@ margin-bottom: 9px;
     transition: transform 250ms linear;
 }
 
-.all-projects-link:hover .overlay {
+.all-projects-link:hover .overlay,
+.all-projects-link:focus .overlay{
     transform: translateY(0);
 }
 
